@@ -19,13 +19,7 @@ public class q2 {
 	    altura = pedido.nextFloat();
 		
 		IMC = peso / (altura*altura);
-		System.out.println("seu imc é:" + IMC);
-		
-		
-		
-		
-	
-		
+		System.out.printf("seu imc é: %.2f" , IMC);
 		
 	}
 
